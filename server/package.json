@@ -1,0 +1,24 @@
+{
+  "name": "SalesSage",
+  "version": "1.0.0",
+  "description": "Sales intelligence platform with AI-driven features for data analysis and forecasting",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "sales",
+    "intelligence",
+    "AI",
+    "data analysis",
+    "forecasting"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  }
+}

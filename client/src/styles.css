@@ -1,0 +1,132 @@
+/* client/src/styles.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Dashboard styles */
+.dashboard {
+  margin: 20px;
+}
+
+.dashboard h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* CustomerList styles */
+.customer-list {
+  margin-bottom: 20px;
+}
+
+.customer-list h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.customer-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.customer-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+/* LeadScoring styles */
+.lead-scoring {
+  margin-bottom: 20px;
+}
+
+.lead-scoring h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.lead-scoring button {
+  margin-bottom: 10px;
+}
+
+.lead-scoring table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.lead-scoring th,
+.lead-scoring td {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+/* SalesPerformance styles */
+.sales-performance {
+  margin-bottom: 20px;
+}
+
+.sales-performance h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.sales-performance p {
+  margin-bottom: 5px;
+}
+
+/* NavBar styles */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
